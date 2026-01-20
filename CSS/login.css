@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+
+    user-select: none;
+    transition-duration: 0.3s;
+    outline: none;
+}
+:root{
+    --themeBack:rgb(194, 87, 87);
+    --themelayer:rgb(255, 237, 191);
+    --Wood: rgb(94, 14, 0);
+    --highBack: rgb(255 230 166);
+    --hoverBKL: rgb(94, 14, 0);
+    --hoverBKD: rgb(246, 120, 120);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+    background: linear-gradient(45deg ,var(--Wood) 35% ,var(--highBack) 65%);
+    background-color: var(--themeBack);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: var(--highBack);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: large;
+    max-width: 400px;
+    width: 80%;
+    height: 70%;
+    color: var(--Wood);
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px var(--Wood);
+    
+}
+input{
+    width: 80%;
+    background-color: var(--highBack);
+    border: 2px var(--Wood) solid;
+    box-shadow: 0px 0px 4px var(--themeBack);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: large;
+    color: var(--themeBack);
+    margin: 18px 10% 32px 10%;
+}
+
+label{
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+    color: var(--Wood);
+    margin-left: 16px;
+    margin-bottom: 100px;
+}
+a:hover,li:hover{
+    cursor: pointer;
+    color: var(--hoverBKD);
+}
+h2{
+    margin-bottom: 16px;
+    text-align: center;
+}
