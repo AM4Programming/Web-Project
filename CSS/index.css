@@ -169,6 +169,9 @@ p{
     letter-spacing: 4px;
     font-size: 100%;
 }
+footer a{
+    background-color: var(--Wood);
+}
 @media (max-width: 500px) {
     .header-menu-area-btn-list{
         display: none;
