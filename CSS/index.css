@@ -76,7 +76,7 @@ nav ul li:nth-child(n):hover {
 .books-container ul li:nth-child(n):hover {
     transition-timing-function: ease-in-out;
     transition-delay: 0.01s;
-    background-color: rgba(0, 0, 0, 0.155);
+    background-color: var(--Wood);
 }
 .header-menu-area img{
     box-shadow: -1px 6px 10px 0px black;
@@ -91,7 +91,7 @@ a, li{
     background-color: brown;
     text-align: center;
     text-decoration: none;
-    color: var(--themeBack);
+    color: var(--highBack);
 }
 a:hover,li:hover{
     color: var(--hoverBKD);
